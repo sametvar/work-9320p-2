@@ -1,0 +1,54 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+}
+.container input {
+  color: aqua;
+}
+.container input img {
+  width: 100px;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container .row {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.container .row img {
+  width: 100%;
+  height: 200px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.container .den {
+  display: flex;
+}
+.container .den .card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 5px solid;
+  padding: 20px;
+  margin: 5px;
+}
+.container .den .card img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  border: 2px solid;
+}
+.container .box {
+  border: 5px solid;
+  margin: 5px;
+  padding: 5px;
+}
+.container .box img {
+  width: 100%;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}/*# sourceMappingURL=style.css.map */
